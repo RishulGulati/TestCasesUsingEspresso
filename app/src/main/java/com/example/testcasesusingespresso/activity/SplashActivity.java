@@ -9,7 +9,7 @@ import com.example.testcasesusingespresso.R;
 
 public class SplashActivity extends Activity {
 
-    private static int SPLASH_TIME_OUT = 3000;
+    private static int SPLASH_TIME_OUT = 3500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
