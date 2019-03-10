@@ -51,7 +51,7 @@ public class TestStudentForm {
 
     //Students Details----
     protected static final String FULL_NAME = "HEATHER JANE ";
-    protected static final String MOBILE_NO = "9997872060";
+    protected static final String MOBILE_NO = "0123456789";
     protected static final String EMAIL_ID = "heatherjane10@gmail.com";
     protected static final String MOTHER_NAME = "JENNIFER JANE";
     protected static final String FATHER_NAME = "RACHEL JANE";
@@ -76,7 +76,6 @@ public class TestStudentForm {
     }
 
     private void testLoginScreen() {
-        SystemClock.sleep(DELAY_MAX_EXTRA);
         SystemClock.sleep(DELAY_MAX_EXTRA);
         //For the editText use the below code that follows:-
         onView(ViewMatchers.withId(R.id.enrolment)).perform(typeText(ENROLLMENT_NO), closeSoftKeyboard());
