@@ -73,7 +73,7 @@ public class StudentDetailsActivity extends AppCompatActivity {
                                 }
 
                             }, yearC, monthC, dayC);
-                    dialog.getDatePicker().setMinDate(System.currentTimeMillis());
+                    dialog.getDatePicker();      //.setMinDate(System.currentTimeMillis());
                     dialog.show();
                 }
 
